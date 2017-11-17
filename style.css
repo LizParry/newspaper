@@ -1,14 +1,16 @@
 .header {
-	display: inline-flex;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  z-index: 20;
-  border: 1px solid;
-  width: 400px;
-  align-items: center;
+	justify-content: space-between;
 }
+.try {display: inline-flex;
+font-family: Verdana;
+font-size: 14px;
+font-weight: bold;
+z-index: 20;
+border: 1px solid;
+width: 400px;
+align-items: center;
 
+}
 
 h1 {
   font-family: Verdana;
@@ -24,8 +26,4 @@ h1 {
   flex-direction: row;
   align-items: center;
   margin: 10px;
-}
-.list {
-  align-content: flex-end;
-  flex-direction: row;
 }
