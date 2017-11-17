@@ -1,0 +1,31 @@
+.header {
+	display: inline-flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 20;
+  border: 1px solid;
+  width: 400px;
+  align-items: center;
+}
+
+
+h1 {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  Margin: 10px;
+}
+
+.links {
+  display: inline-block;
+  align-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+.list {
+  align-content: flex-end;
+  flex-direction: row;
+}
