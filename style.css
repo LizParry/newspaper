@@ -1,15 +1,18 @@
 .header {
+	display: flex;
 	justify-content: space-between;
+	  flex-direction: row;
 }
-.try {display: inline-flex;
+
+.try {display: flex;
 font-family: Verdana;
+flex-direction: row;
 font-size: 14px;
 font-weight: bold;
 z-index: 20;
 border: 1px solid;
 width: 400px;
 align-items: center;
-
 }
 
 h1 {
@@ -22,8 +25,20 @@ h1 {
 
 .links {
   display: inline-block;
-  align-content: flex-end;
-  flex-direction: row;
   align-items: center;
-  margin: 10px;
+	align-content: flex-end;
+	flex-direction: row;
+	margin: 10px;
+}
+
+.list{
+  display: inline-flex;
+	list-style-type: none;
+}
+li {
+	margin: 5px;
+	color: black;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
 }
